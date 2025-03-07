@@ -1,0 +1,29 @@
+{
+	"name": "ds_caaadls_golden",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_caaadls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "gold"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "loan_term",
+				"type": "INT_32"
+			},
+			{
+				"name": "average_loan_amount",
+				"type": "DOUBLE"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

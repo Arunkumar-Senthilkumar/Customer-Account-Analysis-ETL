@@ -1,0 +1,22 @@
+{
+	"name": "ls_caaadls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://caaadls.dfs.core.windows.net/",
+			"tenant": "ff05faeb-f1fd-4af8-9f9f-5541837df902",
+			"servicePrincipalId": "aed8a39b-4d88-4eb3-865d-9c780297a4ca",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_key_vault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "caa-sp"
+			}
+		}
+	}
+}

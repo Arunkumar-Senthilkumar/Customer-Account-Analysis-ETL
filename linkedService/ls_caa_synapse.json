@@ -1,0 +1,17 @@
+{
+	"name": "ls_caa_synapse",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"server": "caa-synapse.sql.azuresynapse.net",
+			"database": "caa_dw",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "arun",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQyRUQ4QzVDLTJCOUUtNDg2Mi1BQ0Y5LTQ1QkNBNjkyNDQ4MF9kNjA4YWE4NC1jNTZmLTQxNjAtOWFiMS00ZTM5ZGUyNTc3OWYiDQp9"
+		}
+	}
+}

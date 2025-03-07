@@ -1,0 +1,9 @@
+{
+	"name": "CAA-ADF",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38b9b794-d32d-4ac1-be2a-a34c9d5e08e0",
+		"tenantId": "ff05faeb-f1fd-4af8-9f9f-5541837df902"
+	}
+}

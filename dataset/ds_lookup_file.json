@@ -1,0 +1,33 @@
+{
+	"name": "ds_lookup_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_backenddata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "AllHTTPFiles.json",
+				"container": "data"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"BaseURL": {
+					"type": "string"
+				},
+				"RelativeURL": {
+					"type": "string"
+				},
+				"FileName": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
