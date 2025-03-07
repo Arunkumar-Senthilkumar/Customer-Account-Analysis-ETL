@@ -1,0 +1,78 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "CAA-ADF"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"ls_caa_synapse_password": {
+			"value": ""
+		},
+		"ls_synapse_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "caa-synapse.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "arun"
+		},
+		"ls_HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"ls_backenddata_properties_typeProperties_serviceEndpoint": {
+			"value": "https://backenddataadls.blob.core.windows.net/"
+		},
+		"ls_backenddata_properties_typeProperties_tenant": {
+			"value": "ff05faeb-f1fd-4af8-9f9f-5541837df902"
+		},
+		"ls_backenddata_properties_typeProperties_servicePrincipalId": {
+			"value": "aed8a39b-4d88-4eb3-865d-9c780297a4ca"
+		},
+		"ls_caa_databricks_properties_typeProperties_existingClusterId": {
+			"value": "0307-211901-x1tv7x6o"
+		},
+		"ls_caa_synapse_properties_typeProperties_server": {
+			"value": "caa-synapse.sql.azuresynapse.net"
+		},
+		"ls_caa_synapse_properties_typeProperties_database": {
+			"value": "caa_dw"
+		},
+		"ls_caa_synapse_properties_typeProperties_userName": {
+			"value": "arun"
+		},
+		"ls_caaadls_properties_typeProperties_url": {
+			"value": "https://caaadls.dfs.core.windows.net/"
+		},
+		"ls_caaadls_properties_typeProperties_tenant": {
+			"value": "ff05faeb-f1fd-4af8-9f9f-5541837df902"
+		},
+		"ls_caaadls_properties_typeProperties_servicePrincipalId": {
+			"value": "aed8a39b-4d88-4eb3-865d-9c780297a4ca"
+		},
+		"ls_key_vault_properties_typeProperties_baseUrl": {
+			"value": "https://caa-azure-key-vault.vault.azure.net/"
+		},
+		"ls_synapse_properties_typeProperties_server": {
+			"value": "caa-synapse.sql.azuresynapse.net"
+		},
+		"ls_synapse_properties_typeProperties_database": {
+			"value": "caa_dw"
+		},
+		"ls_synapse_properties_typeProperties_userName": {
+			"value": "arun"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
