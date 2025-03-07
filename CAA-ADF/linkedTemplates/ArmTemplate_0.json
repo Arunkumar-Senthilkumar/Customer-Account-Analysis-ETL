@@ -553,8 +553,7 @@
 								"parameters": {}
 							},
 							"fieldList": [
-								"childItems",
-								"lastModified"
+								"childItems"
 							],
 							"storeSettings": {
 								"type": "AzureBlobStorageReadSettings",
