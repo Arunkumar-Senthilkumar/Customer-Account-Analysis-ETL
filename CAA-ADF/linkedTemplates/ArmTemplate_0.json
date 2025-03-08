@@ -602,7 +602,7 @@
 											"storeSettings": {
 												"type": "AzureBlobStorageReadSettings",
 												"recursive": true,
-												"wildcardFileName": "*",
+												"wildcardFileName": "@item().name",
 												"enablePartitionDiscovery": false
 											},
 											"formatSettings": {
