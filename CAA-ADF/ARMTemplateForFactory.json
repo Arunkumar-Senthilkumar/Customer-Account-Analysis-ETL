@@ -233,7 +233,7 @@
 							{
 								"activity": "ForEach2",
 								"dependencyConditions": [
-									"Completed"
+									"Succeeded"
 								]
 							}
 						],
